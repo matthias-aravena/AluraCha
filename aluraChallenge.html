@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap"  rel="stylesheet">
+    <title>Encriptador</title>
+    
+</head>
+<body>
+    <!--- <div class="container">
+    <div class="logo">
+           <img class="logoMov" src="Imagen/Vector01.png" alt="">
+           <h1 class="titulo01">Encriptador alura</h1>
+        </div>
+        <div class="left">
+            <input class="textoIN" id="inputTexto" type="text" placeholder="Ingrese aqui su texto">
+        </div>
+        <div class="right">
+            <img class="dibujo01" src="Imagen/Muñeco.png" alt="" id="muñe">
+            <h1 class="texto02" id="texto02">Ningun mensaje fue encotrado</h1>
+            <textarea class="texto03" name="name" id="textodib" cols="80" rows="8">Ingrese texto que desees encriptar o desencriptar</textarea>
+            <button id="copyar" type="button" name="button" onclick="copiar01()"> Copiar </button>
+        </div>
+        <div class="botones">
+              <p>Solo minuscula y sin acentos</p>
+              <button type="button" id="btn-encriptar" onclick="encriptar()"> Encriptar </button>
+              <button type="button" id="btn-desencriptar" onclick="desencriptar()"> Desencriptar </button>
+        </div>
+
+    </div> --->
+    <header class="primero">
+        <img class="logo" src="Imagen/Vector01.png" alt="">
+        <h1 class="titulo01">Encriptador alura</h1>
+    </header>
+    <main>
+        <section>
+            <textarea class="texto01" cols="30" rows="4" placeholder="Ingrese aqui el texto..."></textarea>
+            <div>
+                <h6 class="informacion">Solo letras minuscula y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+           <textarea class="texto02" cols="20" rows="10"></textarea> 
+           <div>
+            <button class="copiar" onclick="cop()">Copiar</button>
+           </div>  
+        </section>
+    </main>
+    <script src="/script.js"></script>
+</body>
+</html>
